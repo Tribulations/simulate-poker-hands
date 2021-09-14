@@ -1,0 +1,8 @@
+﻿  Card.cpp
+  Deck.cpp
+  func.cpp
+D:\Visual Studio Projects\Probability poker new\Probability poker new\func.cpp(19,11): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+  functions.cpp
+  main.cpp
+  Generating Code...
+  Probability poker new.vcxproj -> D:\Visual Studio Projects\Probability poker new\Debug\Probability poker new.exe
