@@ -1,7 +1,27 @@
 [
   {
     "directory": "/workspaces/simulate-poker-hands",
-    "command": "g++ -std=c++17 -Wall -Wextra -g -o poker src/main.cpp",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/main.cpp -o src/main.o",
     "file": "src/main.cpp"
+  },
+  {
+    "directory": "/workspaces/simulate-poker-hands",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/Card.cpp -o src/Card.o",
+    "file": "src/Card.cpp"
+  },
+  {
+    "directory": "/workspaces/simulate-poker-hands",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/Deck.cpp -o src/Deck.o",
+    "file": "src/Deck.cpp"
+  },
+  {
+    "directory": "/workspaces/simulate-poker-hands",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/func.cpp -o src/func.o",
+    "file": "src/func.cpp"
+  },
+  {
+    "directory": "/workspaces/simulate-poker-hands",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -Isrc -c src/functions.cpp -o src/functions.o",
+    "file": "src/functions.cpp"
   }
 ]
