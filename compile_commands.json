@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/workspaces/simulate-poker-hands",
+    "command": "g++ -std=c++17 -Wall -Wextra -g -o poker src/main.cpp",
+    "file": "src/main.cpp"
+  }
+]
